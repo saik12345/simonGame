@@ -53,7 +53,7 @@ function checkAnswer(currentLevel) {
         $("body").removeClass("game-over");
       }, 1500);
       $("#level-title").text(
-        "Oops Wrong Pattern!!Press a key to start again!!"
+        "Oops Wrong Pattern!!"
       );
       level = 0;
       gamePattern = [];
